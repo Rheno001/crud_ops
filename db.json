@@ -1,0 +1,16 @@
+{
+    "students":[
+        {
+            "id":1,
+            "name":"Kemuel",
+            "place":"Kaduna",
+            "phone":"08032233222"
+        },
+        {
+            "id":2,
+            "name":"Folu",
+            "place":"Kaura",
+            "phone":"09029930220"
+        }
+    ]
+}
