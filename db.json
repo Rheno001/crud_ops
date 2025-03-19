@@ -1,16 +1,70 @@
 {
-    "students":[
-        {
-            "id":1,
-            "name":"Kemuel",
-            "place":"Kaduna",
-            "phone":"08032233222"
-        },
-        {
-            "id":2,
-            "name":"Folu",
-            "place":"Kaura",
-            "phone":"09029930220"
-        }
-    ]
+  "students": [
+    {
+      "id": "1",
+      "name": "Kemuel",
+      "place": "Kaduna",
+      "phone": "08032233222"
+    },
+    {
+      "id": "2",
+      "name": "Folu",
+      "place": "Kaura",
+      "phone": "09029930220"
+    },
+    {
+      "id": "3",
+      "name": "Folu",
+      "place": "Kaura",
+      "phone": "09029930220"
+    },
+    {
+      "id": "13",
+      "name": "reno",
+      "place": "abuja",
+      "phone": "09031400901"
+    },
+    {
+      "id": "13",
+      "name": "reno",
+      "place": "Lagos",
+      "phone": "08036321505"
+    },
+    {
+      "id": "19",
+      "name": "Oma",
+      "place": "Lagos",
+      "phone": "08292911"
+    },
+    {
+      "id": "13",
+      "name": "Mansur",
+      "place": "Punjab",
+      "phone": "+2233223121"
+    },
+    {
+      "id": "14",
+      "name": "Rick ross",
+      "place": "The penthouse",
+      "phone": "+23400044"
+    },
+    {
+      "id": "",
+      "name": "",
+      "place": "",
+      "phone": ""
+    },
+    {
+      "id": "14",
+      "name": ".htaccess",
+      "place": "Lagos",
+      "phone": "08127415509"
+    },
+    {
+      "id": "cvcvc",
+      "name": "cv",
+      "place": "vcvc",
+      "phone": "cv"
+    }
+  ]
 }

@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function StudentTable(){
     const [students, setStudents]=useState("");
+    const navigate = useNavigate();
+    const DisplayDetails=(id)=>{
+        navigate("/student/view/" +id);
+    }
     
     useEffect(()=>{
         fetch('http://localhost:8000/students')
@@ -28,13 +32,13 @@ export default function StudentTable(){
                     </thead>
                     <tbody>{
                         students && students.map((item)=>(
-                            <tr>
+                            <tr key={item.id}>
                             <td className="px-[20px]">{item.id}</td>
                             <td className="px-[20px]">{item.name}</td>
                             <td className="px-[20px]">{item.place}</td>
                             <td className="px-[20px]">{item.phone}</td>
                             <td className="px-[20px]">
-                                <a href="" className="btn">View</a>
+                                <button onClick={()=>DisplayDetails(item.id)} className="btn">View</button>
                                 <a href="" className="btn">Edit</a>
                                 <a href="" className="btn btn-del bg-red-600">Delete</a>
                             </td>
